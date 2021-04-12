@@ -1,0 +1,33 @@
+h1
+{
+  text-align: center;
+  color: #c06014;
+}
+body
+{
+  background-color: #f8ede3;
+}
+div
+{
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid;
+  position: absolute;
+}
+.block1
+{
+  width: 434px;
+  background-color: #865858;
+}
+.block2
+{
+  background-color: #8e7f7f;
+  margin-top: 234px;
+}
+.block3
+{
+  background-color: #bbbbbb;
+  margin-top: 234px;
+  margin-left: 234px;
+}

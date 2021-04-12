@@ -1,58 +1,73 @@
-body
-{
-  background-image: url("backgroud.jpg");
-  font-family :cursive;
-}
-#image
-{
-  width: 150px;
-  height: 145px;
-  border-radius: 50%;
-}
-.centre
-{
-  text-align: center;
-}
-.head
-{
-  text-align : center;
-  color: #987612;
-  text-decoration: underline;
-}
 h1
 {
   text-align: center;
+  color: #c06014;
 }
-h2
+body
 {
-  color: #7C0909;
-  text-align: center;
-  font-family : sans-serif;
+  background-color: #f8ede3;
 }
-hr
+div
 {
-  width: 80%;
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid;
+  position: relative;
 }
-.scholl
+.block
 {
-  color: red;
-  font-style: italic;
+  margin: 10px;
 }
-.cell
+.block1
 {
-  width: 80%;
+  background-color: #865858;
 }
-.date
+.block2
 {
-  color: red;
-  font-weight: bold;
-  font-style: italic;
+  margin-left: 224px;
+  background-color: #8e7f7f;
 }
-.bottom
+.block3
 {
-  text-align: center;
+  margin-left: 448px;
+  background-color: #bbbbbb;
 }
-.scholl a
+.block21
 {
-  color: red;
+  width: 434px;
+  background-color: #865858;
+  margin-bottom: 10px;
+}
+.block22
+{
+  float: left;
+  background-color: #8e7f7f;
+  margin-right: 10px;
+}
+.block23
+{
+  margin-left: 234px;
+  background-color: #bbbbbb;
+}
+.block31
+{
+  float: left;
+  background-color: #865858;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.block32
+{
+  float: left;
+  background-color: #8e7f7f;
+}
+.block33
+{
+  background-color: #bbbbbb;
+  clear:both;
+}
+a
+{
+  display: block;
 }
