@@ -1,0 +1,58 @@
+body
+{
+  background-image: url("backgroud.jpg");
+  font-family :cursive;
+}
+#image
+{
+  width: 150px;
+  height: 145px;
+  border-radius: 50%;
+}
+.centre
+{
+  text-align: center;
+}
+.head
+{
+  text-align : center;
+  color: #987612;
+  text-decoration: underline;
+}
+h1
+{
+  text-align: center;
+}
+h2
+{
+  color: #7C0909;
+  text-align: center;
+  font-family : sans-serif;
+}
+hr
+{
+  width: 80%;
+}
+.scholl
+{
+  color: red;
+  font-style: italic;
+}
+.cell
+{
+  width: 80%;
+}
+.date
+{
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+.bottom
+{
+  text-align: center;
+}
+.scholl a
+{
+  color: red;
+}
