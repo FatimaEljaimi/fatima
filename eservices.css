@@ -1,0 +1,121 @@
+body
+{
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  background-color: #4167D5;
+  grid-template-areas:
+      "... main main main main..."
+}
+.main
+{
+  margin-top: 50px;
+  height: 550px;
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "login login";
+}
+.imag
+{
+  background-image: url(login.png);
+  background-position: center;
+  background-size: cover;
+}
+.login
+{
+  background-color: white;
+}
+.text-center-color
+{
+  text-align: center;
+  color: #3a3b45;
+  margin-bottom: 40px;
+  font-family: nunito;
+  font-size : 1.5rem;
+  font-weight: 400;
+}
+.input
+{
+  height: 50px;
+  width: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #858796;
+}
+input:focus
+{
+  outline: none;
+  border-width: .3rem;
+  border-color:  rgba(211, 220, 247, 1);
+}
+form
+{
+  margin-left : 4em;
+  margin-right: 4em;
+}
+input[type="text" i],[type = "password"] {
+    padding-left: 20px;
+}
+button
+{
+  color: #ffff;
+  background-color:#4e73df;
+  font-size: 1rem;
+  border-style: hidden;
+  cursor: pointer;
+}
+hr
+{
+  width: 75%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.text-center
+{
+  text-align: center;
+}
+.mb
+{
+  margin-bottom: 20px;
+}
+.mt
+{
+  margin-top: 50px;
+}
+.radius
+{
+  border-radius: 10rem;
+}
+.bottom
+{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.3em;
+  color:#858796;
+}
+a{
+  color:#4e73df;
+  font-size: 90%;
+  line-height: 2rem;
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+button:hover
+{
+  background-color: #2E59D9;
+}
+.gray
+{
+  color: #858796;
+}
+@media screen and (max-width : 1024px) {
+.login
+{
+  grid-area: login;
+}
+}
