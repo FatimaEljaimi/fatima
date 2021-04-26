@@ -1,0 +1,114 @@
+body
+{
+  display: grid;
+  grid-template-areas:
+                "tete tete tete tete"
+                "section0 section0 section0 section0"
+                "section1 section2 section3 section4"
+                "section5 section5 section6 section6"
+                "pied pied pied pied"
+}
+div
+{
+  border: 3px solid rgb(56,93,138);
+  margin-bottom: 10px;
+  height: 5rem;
+}
+p
+{
+  text-align: center;
+}
+.en_tete
+{
+  background-color: rgb(85,142,213);
+  grid-area: tete;
+}
+.section_0
+{
+  background-color: rgb(196,189,151);
+  grid-area: section0;
+}
+.section_1
+{
+  background-color: rgb(198,217,241);
+  height: 8rem;
+  grid-area: section1;
+  margin-right: .5rem;
+}
+.section_2
+{
+  background-color: rgb(230,185,184);
+  height: 8rem;
+  margin-right: .5rem;
+  grid-area: section2;
+}
+.section_3
+{
+    background-color: rgb(195,214,155);
+    height: 8rem;
+    margin-right: .5rem;
+    grid-area: section3;
+}
+.section_4
+{
+  background-color: rgb(250,192,144);
+  height: 8rem;
+  grid-area: section4;
+}
+.section_5
+{
+  clear: both;
+  background-color: rgb(0,176,240);
+  height: 8rem;
+  margin-right: .5rem;
+  grid-area: section5;
+}
+.section_6
+{
+  background-color: rgb(0,176,240);
+  height: 8rem;
+  grid-area: section6;
+}
+.pied
+{
+  background-color: rgb(179,162,199);
+  grid-area: pied;
+}
+@media (min-width: 768px) and (max-width: 1024px)
+{
+  body
+  {
+    grid-template-areas:
+                  "tete tete"
+                  "section0 section0"
+                  "section1 section2"
+                  "section3 section4"
+                  "section5 section5"
+                  "section6 section6"
+                  "pied pied"
+  }
+  .section_2, .section_5
+  {
+    margin-right: 0px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px)
+{
+  body
+  {
+    grid-template-areas:
+                  "tete"
+                  "section0"
+                  "section1"
+                  "section2"
+                  "section3"
+                  "section4"
+                  "section5"
+                  "section6"
+                  "pied"
+  }
+  .section_1, .section_2, .section_3, .section_5
+  {
+    margin-right: 0px;
+  }
+}
